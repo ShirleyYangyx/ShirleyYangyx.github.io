@@ -1,10 +1,10 @@
-primary_name: "Your Name"
+primary_name: "Yaxi Yang"
 secondary_name: ""
-navbar_name: "Your Name"
+navbar_name: "Yaxi Yang"
 
 positions:
-- name: Title or Position
-- name: Affiliation Name
+- name: Research Fellow
+- name: Nanyang Technological University (NTU)
   logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
 
 
