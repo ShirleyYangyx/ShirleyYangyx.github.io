@@ -37,12 +37,12 @@ portrait_caption: >-
   Yaxi Yang, Ph.D.
 
 experience:
-- name: Nanyang Technological University (NTU)
+- name: Nanyang Technological University
   logo: /assets/images/badges/NTU.png
   position: >- 
     Research Fellow
   date: Oct. 2025 - present
-- name: Singapore University of Technology and Design (SUTD)
+- name: Singapore University of Technology and Design
   logo: /assets/images/badges/SUTD.png
   position: >-
     Research Fellow
@@ -69,7 +69,7 @@ education:
   logo: /assets/images/badges/JNU.png
   position: >-
     B.Sc. in Information Security
-  date: Dec. 2021 - Sep. 2022
+  date: 2013 - 2017
 
 # awards:
 # - name: Award Name 2
