@@ -38,7 +38,7 @@ portrait_caption: >-
 
 experience:
 - name: Nanyang Technological University (NTU)
-  logo: /assets/images/badges/MIT_Social_circle.png
+  logo: /assets/images/badges/NTU.png
   position: >- 
     Research Fellow
   date: Oct. 2025 - present
@@ -52,7 +52,7 @@ education:
 - name: Jinan University 
   logo: /assets/images/badges/MIT_Social_circle.png
   position: >- 
-    Ph.D. in Information Security
+    Ph.D. in Information Security <br/>
     Supervised by: Jian Weng
   date: 2017 - 2023
 - name: University of Surrey 
