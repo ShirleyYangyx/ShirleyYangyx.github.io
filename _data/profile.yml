@@ -52,17 +52,18 @@ education:
 - name: Jinan University 
   logo: /assets/images/badges/MIT_Social_circle.png
   position: >- 
-    Ph.D. in Information Security; supervised by: Jian Weng
+    Ph.D. in Information Security
+    Supervised by: Jian Weng
   date: 2017 - 2023
 - name: University of Surrey 
   logo: /assets/images/badges/PKU_red.png
   position: >-
-    Visiting 
+    Visiting Researcher
   date: Sep. 2022 - Dec. 2022
 - name: Newcastle University 
   logo: /assets/images/badges/PKU_red.png
   position: >-
-    Visiting
+    Visiting Researcher
   date: Dec. 2021 - Sep. 2022
 - name: Jinan University 
   logo: /assets/images/badges/PKU_red.png
