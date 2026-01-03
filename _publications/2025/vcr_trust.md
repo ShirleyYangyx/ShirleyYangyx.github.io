@@ -18,8 +18,8 @@ authors:
   - Yaxi Yang
   - Qiang Liu
 
-links:
-  Code: https://github.com/CPS4AI/OpenMizar
+#links:
+ # Code: https://github.com/CPS4AI/OpenMizar
 #   Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
 ---
 
