@@ -1,0 +1,76 @@
+<div class="row">
+    <div class="col">
+        <div class="card border-0 shadow-sm bg-white">
+            <div class="card-body px-4 pt-4 pb-3">
+                <div class="row">
+                    <div class="col h4">
+                        {% if include.title %}
+                        {{ include.title }}
+                        {% else %}
+                        <i class="fas fa-concierge-bell"></i> Academic Services
+                        {% endif %}
+                    </div>
+                </div>
+
+                {%- comment -%}
+                Resolve services list in this order:
+                1) include.services (passed in when including this widget)
+                2) site.data.services (a recommended _data/services.yml)
+                3) site.data.profile.services (profile-level fallback)
+                {%- endcomment -%}
+
+                {% assign services_list = include.services | default: site.data.services | default: site.data.profile.services %}
+
+                {% if services_list and services_list.size > 0 %}
+                <div class="row pt-2">
+                    <div class="col small">
+                        {% for service in services_list limit: include.limit %}
+                        <div class="media mb-3">
+                            {% if service.icon %}
+                            <div class="mr-3 text-primary" style="width:36px; text-align:center;">
+                                <i class="fas fa-{{ service.icon }} fa-lg"></i>
+                            </div>
+                            {% endif %}
+                            <div class="media-body">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="mt-0 mb-1">{{ service.title }}</h6>
+                                    {% if service.level %}
+                                    <small class="text-muted">{{ service.level }}</small>
+                                    {% endif %}
+                                </div>
+                                {% if service.description %}
+                                <div class="text-muted">{{ service.description }}</div>
+                                {% endif %}
+
+                                <div class="mt-2">
+                                    {% if service.link %}
+                                    <a class="btn btn-sm btn-outline-primary" href="{{ service.link }}" target="_blank">Learn more</a>
+                                    {% endif %}
+
+                                    {% if include.show_contact and site.data.profile.email %}
+                                    <a class="btn btn-sm btn-primary ml-2" href="mailto:{{ site.data.profile.email | encode_email }}">Contact</a>
+                                    {% endif %}
+                                </div>
+                                {% if service.tags %}
+                                <div class="mt-2 small">
+                                    {% for tag in service.tags %}
+                                    <span class="badge badge-light border mr-1">{{ tag }}</span>
+                                    {% endfor %}
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% else %}
+                <div class="row pt-2">
+                    <div class="col text-muted small">No services listed.</div>
+                </div>
+                {% endif %}
+
+            </div>
+        </div>
+    </div>
+</div>
+
