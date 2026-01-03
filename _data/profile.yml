@@ -80,3 +80,12 @@ education:
 #   date: 2021
 # - name: A quick brown fox jumps over the lazy dog and runs away award
 #   date: 2021
+
+services:
+- name: TDSC
+  tag: journal
+  year: 2024
+- name: IEEE S&P
+  tag: conference
+  year: 2024
+
