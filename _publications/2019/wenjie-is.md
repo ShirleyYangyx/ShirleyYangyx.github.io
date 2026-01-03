@@ -17,9 +17,9 @@ authors:
   - Anjia Yang
   - Congge Xie
   - Yaxi Yang
-#links:
+links:
  # Code: https://github.com/cmZoO/PPSI
- # Demo: https://luost26.github.io/bubble-visual-hash
+  Paper: https://www.sciencedirect.com/science/article/abs/pii/S0020025518304900
 ---
 
 

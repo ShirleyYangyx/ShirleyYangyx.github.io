@@ -21,7 +21,7 @@ authors:
   - Jin-Song Dong
 
 links:
-  Code: https://github.com/CPS4AI/OpenMC-PSI
+ # Code: https://github.com/CPS4AI/OpenMC-PSI
   Paper: https://ieeexplore.ieee.org/document/11314596
 ---
 

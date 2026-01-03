@@ -19,9 +19,9 @@ authors:
   - Yandong Zheng
   - Leo Yu Zhang
   - Rongxing Lu
-#links:
+links:
  # Code: https://github.com/cmZoO/PPSI
- # Demo: https://luost26.github.io/bubble-visual-hash
+  Paper: https://ieeexplore.ieee.org/document/9887859
 ---
 
 

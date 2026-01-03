@@ -22,5 +22,5 @@ authors:
 
 links:
   Code: https://github.com/CPS4AI/OpenMC-PSI
-#   Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
+  Paper: https://petsymposium.org/popets/2025/popets-2025-0082.php
 ---

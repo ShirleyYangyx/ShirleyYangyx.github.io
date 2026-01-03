@@ -20,5 +20,5 @@ authors:
   - Jianying Zhou 
 links:
   Code: https://github.com/cmZoO/PPSI
- # Demo: https://luost26.github.io/bubble-visual-hash
+  Paper: https://link.springer.com/chapter/10.1007/978-3-031-33491-7_6
 ---

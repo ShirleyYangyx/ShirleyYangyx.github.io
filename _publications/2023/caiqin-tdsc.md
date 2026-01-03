@@ -20,9 +20,9 @@ authors:
   - Yaxi Yang
   - Jianfeng Ma
   
-#links:
+links:
  # Code: https://github.com/cmZoO/PPSI
- # Demo: https://luost26.github.io/bubble-visual-hash
+  Paper: https://ieeexplore.ieee.org/document/9716830
 ---
 
 

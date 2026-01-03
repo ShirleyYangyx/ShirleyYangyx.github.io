@@ -19,9 +19,9 @@ authors:
   - Yaxi Yang
   - Min-Rong Chen
   - Xiaoqing Tan
-#links:
+links:
  # Code: https://github.com/cmZoO/PPSI
- # Demo: https://luost26.github.io/bubble-visual-hash
+  Paper: https://www.sciencedirect.com/science/article/abs/pii/S002002551930458X
 ---
 
 

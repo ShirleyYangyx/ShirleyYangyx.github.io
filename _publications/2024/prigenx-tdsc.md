@@ -19,7 +19,7 @@ authors:
   - Zhenghao Wu
   - Leo Yu Zhang
   - Anjia Yang
-#links:
+links:
  # Code: https://github.com/luost26/bubble-visual-hash
- # Demo: https://luost26.github.io/bubble-visual-hash
+  Paper: https://ieeexplore.ieee.org/document/10100620
 ---
