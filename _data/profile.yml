@@ -58,12 +58,14 @@ education:
 - name: University of Surrey 
   logo: /assets/images/badges/Surrey.png
   position: >-
-    Visiting Researcher
+    Visiting Researcher<br/>
+    Supervised by: <a href="https://scholar.google.com/citations?user=3IH9iokAAAAJ&hl=en" target="_blank">Liqun Chen</a>
   date: Sep. 2022 - Dec. 2022
 - name: Newcastle University 
   logo: /assets/images/badges/Newcastle.png
   position: >-
-    Visiting Researcher
+    Visiting Researcher <br/>
+    Supervised by: <a href="https://changyudong.site/" target="_blank">Changyu Dong</a>
   date: Dec. 2021 - Sep. 2022
 - name: Jinan University 
   logo: /assets/images/badges/JNU.png
