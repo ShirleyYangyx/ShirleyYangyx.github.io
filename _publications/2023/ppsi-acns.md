@@ -1,7 +1,7 @@
 ---
 title:          "Predicate Private Set Intersection with Linear Complexity"
 date:           2023-05-28 00:01:00 +0800
-selected:       true
+selected:       false
 pub:            "International Conference on Applied Cryptography and Network Security (ACNS)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
