@@ -84,8 +84,13 @@ education:
 services:
 - name: TDSC
   tag: journal
-  year: 2024
+  years: 2024
 - name: IEEE S&P
   tag: conference
-  year: 2024
-
+  years: 2024
+- name: ACNS
+  tag: conference
+  years: 2024
+- name: CANS
+  tag: conference
+  years: 2023
