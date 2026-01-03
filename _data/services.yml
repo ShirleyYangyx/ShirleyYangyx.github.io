@@ -1,46 +1,8 @@
-# Example services data for the `services_card` include
-# Usage in a page or layout:
-# {% include widgets/services_card.html services=site.data.services limit=5 show_contact=true title="Services" %}
-# Each item supports: title, icon (Font Awesome name), level, description, link, tags
-- title: "Graduate supervision"
-  icon: "user-graduate"
-  level: "PhD, MSc"
-  description: "Supervision of student research in machine learning, computer vision, and trustworthy AI."
-  link: "/services/supervision.html"
-  tags:
-    - supervision
-    - ML
-    - CV
+- title: "TDSC 2024"
+  tag: journal
 
-- title: "Collaborative research"
-  icon: "handshake"
-  level: "Collaborator"
-  description: "Long-term collaborations on interdisciplinary research projects and grant proposals."
-  link: "mailto:prof@example.edu?subject=Research%20Collaboration"
-  tags:
-    - collaboration
-    - grants
+- title: "ICDM 2024"
+  tag: conference
 
-- title: "Workshops & training"
-  icon: "chalkboard-teacher"
-  level: "Short courses"
-  description: "Custom workshops and tutorials on reproducible research and model evaluation."
-  link: "/services/workshops.html"
-  tags:
-    - training
-    - workshop
-
-- title: "Consulting"
-  icon: "briefcase"
-  level: "Industry"
-  description: "Consultation on applied machine learning, privacy, and deployment."
-  link: "mailto:prof@example.edu?subject=Consulting"
-  tags:
-    - consulting
-
-- title: "Peer review"
-  icon: "search"
-  level: "Reviewer"
-  description: "Journal and conference peer reviews; editorial service on request."
-  tags:
-    - review
+- title: "KDD 2024"
+  tag: conference
