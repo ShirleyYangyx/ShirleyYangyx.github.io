@@ -6,7 +6,9 @@
     </h6>
     <div class="px-4 py-3 small">
         <ul class="list-unstyled mb-0">
-            <strong>Conference Reviewer:</strong>
+            <li class="mb-1 font-weight-bold">
+                Conference Reviewer:
+            </li>
             {% for service in site.data.profile.services %}
             {% if service.tag == 'conference' %}
             <li class="mb-1">
@@ -18,7 +20,9 @@
         </ul>
         <hr>
         <ul class="list-unstyled mb-0">
-            <strong>Journal Reviewer:</strong>
+            <li class="mb-1 font-weight-bold">
+                Journal Reviewer:
+            </li>
             {% for service in site.data.profile.services %}
             {% if service.tag == 'journal' %}
             <li class="mb-1">
@@ -30,3 +34,4 @@
         </ul>
     </div>
 </div>
+{% endif %}
