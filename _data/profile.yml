@@ -93,25 +93,13 @@ services:
 #  years: []
 - name: EuroS&P
   tag: Reviewer
+  years: 2026
+- name: ACISP
+  tag: Reviewer
   years: 2026, 2024
-- name: ACISP
-  tag: Reviewer
-  years: [2024]
-- name: ACISP
-  tag: Reviewer
-  years: [2026]
 - name: PST
   tag: Committee
-  years: [2023]
-- name: PST
-  tag: Committee
-  years: [2024]
-- name: PST
-  tag: Committee
-  years: [2025]
+  years: 2025,2024,2023
 - name: CPSS
   tag: Committee
-  years: [2025]
-- name: CPSS
-  tag: Committee
-  years: [2026]
+  years: 2026,2025
