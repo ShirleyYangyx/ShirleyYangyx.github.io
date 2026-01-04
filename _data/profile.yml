@@ -82,15 +82,15 @@ education:
 #   date: 2021
 
 services:
-- name: TDSC
-  tag: journal
-  years: 2024
-- name: IEEE S&P
-  tag: conference
-  years: 2024
-- name: ACNS
-  tag: conference
-  years: 2024
-- name: CANS
-  tag: conference
-  years: 2023
+- name: TDSC, TIFS, TNSC
+  tag: Journal reviewer
+#  years: 2024
+- name: EuroS&P 2026
+  tag: External reviewer
+- name: ACISP 2026, 2024
+  tag: External reviewer
+- name: PST 2025, 2024, 2023
+  tag: Program committee
+- name: CPSS 2026, 2025
+  tag: Program committee
+#  years: 2023
