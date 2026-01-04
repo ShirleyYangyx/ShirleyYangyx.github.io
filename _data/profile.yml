@@ -93,7 +93,7 @@ services:
 #  years: []
 - name: EuroS&P
   tag: Reviewer
-  years: [2026]
+  years: 2026, 2024
 - name: ACISP
   tag: Reviewer
   years: [2024]
