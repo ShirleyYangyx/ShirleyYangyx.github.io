@@ -84,13 +84,15 @@ education:
 services:
 - name: TDSC, TIFS, TNSC
   tag: Journal reviewer
-#  years: 2024
+# years: 2024
 - name: EuroS&P 2026
   tag: External reviewer
-- name: ACISP 2026, 2024
+- name: ACISP 
   tag: External reviewer
-- name: PST 2025, 2024, 2023
+  years: 2026, 2024
+- name: PST 
   tag: Program committee
-- name: CPSS 2026, 2025
+  years: 2025, 2024, 2023
+- name: CPSS 
   tag: Program committee
-#  years: 2023
+  years: 2026, 2025
