@@ -99,7 +99,7 @@ services:
   years: 2026, 2024
 - name: PST
   tag: Committee
-  years: 2025,2024,2023
+  years: 2025, 2024,2023
 - name: CPSS
   tag: Committee
-  years: 2026,2025
+  years: 2026, 2025
