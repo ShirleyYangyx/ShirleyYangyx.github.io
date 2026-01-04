@@ -84,22 +84,34 @@ education:
 services:
 - name: TDSC
   tag: Reviewer
-  years: []
+#  years: []
 - name: TIFS
   tag: Reviewer
-  years: []
+#  years: []
 - name: TNSC
   tag: Reviewer
-  years: []
+#  years: []
 - name: EuroS&P
   tag: Reviewer
   years: [2026]
 - name: ACISP
   tag: Reviewer
-  years: [2026,2024]
+  years: [2024]
+- name: ACISP
+  tag: Reviewer
+  years: [2026]
 - name: PST
-  tag: Program Committee
-  years: [2025,2024,2023]
+  tag: Committee
+  years: [2023]
+- name: PST
+  tag: Committee
+  years: [2024]
+- name: PST
+  tag: Committee
+  years: [2025]
 - name: CPSS
-  tag: Program Committee
-  years: [2026,2025]
+  tag: Committee
+  years: [2025]
+- name: CPSS
+  tag: Committee
+  years: [2026]
