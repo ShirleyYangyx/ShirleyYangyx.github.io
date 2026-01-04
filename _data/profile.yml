@@ -82,14 +82,20 @@ education:
 #   date: 2021
 
 services:
-- name: TDSC, TIFS, TNSC
-  tag: Journal Reviewer
+- name: TDSC
+  tag: Reviewer
+  years: []
+- name: TIFS
+  tag: Reviewer
+  years: []
+- name: TNSC
+  tag: Reviewer
   years: []
 - name: EuroS&P
-  tag: External Reviewer
+  tag: Reviewer
   years: [2026]
 - name: ACISP
-  tag: External Reviewer
+  tag: Reviewer
   years: [2026,2024]
 - name: PST
   tag: Program Committee
