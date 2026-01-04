@@ -87,21 +87,13 @@ services:
   years: []
 - name: EuroS&P
   tag: External Reviewer
-  years:
-  - 2026
+  years: [2026]
 - name: ACISP
   tag: External Reviewer
-  years:
-  - 2026
-  - 2024
+  years: [2026,2024]
 - name: PST
   tag: Program Committee
-  years:
-  - 2025
-  - 2024
-  - 2023
+  years: [2025,2024,2023]
 - name: CPSS
   tag: Program Committee
-  years:
-  - 2026
-  - 2025
+  years: [2026,2025]
