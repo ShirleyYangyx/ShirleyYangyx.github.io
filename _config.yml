@@ -19,7 +19,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 markdown: kramdown
 plugins:
   - jekyll-email-protect
-  - jekyll-feed
   - jekyll-sitemap
 
 # Exclude from processing.
@@ -34,7 +33,7 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# timezone: Asia/Shanghai
+timezone: Asia/Shanghai
 
 collections:
   - publications
