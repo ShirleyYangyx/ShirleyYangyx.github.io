@@ -9,10 +9,12 @@ date: 2024-01-12 00:01:00 +0800
     <hr />
     <p>
         I like painting and drawing as a hobby, especially working with watercolor. 
-
+    </p>
+    <p>
         Here are some of the paintings I’ve created over the years. 
         They are organized into different categories such as sketches, watercolors, and digital art.
-
+    </p>
+    <p>
         Thank you for visiting my showcase!
     </p>
 </div>
