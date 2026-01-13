@@ -5,5 +5,5 @@ date: 2020-01-12 00:01:00 +0800
 group: Watercolor Paintings
 ---
 <div>
-<img src="{{ 'assets/images/etc/cat1.jpg' | relative_url }}" class="img-fluid rounded-xl" >
+<img src="{{ 'assets/images/etc/watercolor1.jpeg' | relative_url }}" class="img-fluid rounded-xl" >
 </div>
