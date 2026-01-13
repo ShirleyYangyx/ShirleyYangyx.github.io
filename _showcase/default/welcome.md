@@ -8,7 +8,10 @@ date: 2024-01-12 00:01:00 +0800
     <h2>Welcome to my painting world!</h2>
     <hr />
     <p>
-        Here are some of my favorite paintings that I have created over the years. Each piece holds a special meaning and reflects my journey as an artist. Feel free to explore and enjoy the colors and stories behind each artwork.
+        I like painting and drawing as a hobby, especially working with watercolor. 
+        Here are some of the paintings I’ve created over the years. 
+        They are organized into different categories such as Sketches, Watercolors, and Digital Art.
+        Feel free to browse through them.
     </p>
 </div>
 
