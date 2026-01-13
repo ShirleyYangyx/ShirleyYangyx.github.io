@@ -1,10 +1,18 @@
 ---
 show: true
-width: 8
+width: 12
 date: 2024-01-12 00:01:00 +0800
 ---
 
 <div class="p-4">
+    <h2>Welcome to my painting world!</h2>
+    <hr />
+    <p>
+        Here are some of my favorite paintings that I have created over the years. Each piece holds a special meaning and reflects my journey as an artist. Feel free to explore and enjoy the colors and stories behind each artwork.
+    </p>
+</div>
+
+<!-- <div class="p-4">
     <h2>Welcome to Showcase!</h2>
     <hr />
     <p>
@@ -20,4 +28,4 @@ date: 2024-01-12 00:01:00 +0800
     <p>
         For a tidy layout, it is recommended to set the width of the cards to be either multiple of 3 or multiple of 4 for all cards, except for small badges that do not take up much space (width=1).
     </p>
-</div>
+</div> -->
