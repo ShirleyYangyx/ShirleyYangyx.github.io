@@ -8,16 +8,17 @@ date: 2024-01-12 00:01:00 +0800
     <h2>Welcome to my painting world!</h2>
     <hr />
     <p>
-        I like painting and drawing as a hobby, especially working with watercolor. 
+        Painting and drawing are my favorite hobbies, especially working with watercolor.
     </p>
     <p>
-        Here are some of the paintings I’ve created over the years. 
-        They are organized into different categories such as sketches, watercolors, and digital art.
+        Here you’ll find a selection of artworks I’ve created over the years, 
+        organized into categories such as sketches, watercolors, and digital art.
     </p>
     <p>
-        Thank you for visiting my showcase!
+        Thank you for visiting — I hope you enjoy browsing my work!
     </p>
 </div>
+
 
 <!-- <div class="p-4">
     <h2>Welcome to Showcase!</h2>
