@@ -7,7 +7,3 @@ group: Procreate
 <div>
     <img data-src="{{ 'assets/images/etc/procreate1.png' | relative_url }}" class="lazy w-100 rounded-xl" src="{{ '/assets/images/etc/procreate1.png' | relative_url }}" data-toggle="tooltip" data-placement="top" title="Caption of this image">
 </div>
-
-<div>
-    <img data-src="{{ 'assets/images/etc/procreate2.png' | relative_url }}" class="lazy w-100 rounded-xl" src="{{ '/assets/images/etc/procreate2.png' | relative_url }}" data-toggle="tooltip" data-placement="top" title="Caption of this image">
-</div>
