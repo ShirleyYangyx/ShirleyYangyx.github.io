@@ -2,7 +2,7 @@
 show: true
 width: 3
 date: 2020-01-12 00:01:00 +0800
-group: Watercolor Paintings
+group: Watercolor
 ---
 <div>
 <img src="{{ 'assets/images/etc/watercolor1.jpeg' | relative_url }}" class="img-fluid rounded-xl" >
