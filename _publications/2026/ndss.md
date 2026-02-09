@@ -1,6 +1,6 @@
 ---
 title:          "PACS: Privacy-Preserving Attribute-Driven Community Search over Attributed Graphs"
-date:           2025-10-5 20:56:25 +0100
+date:           2026-1-5 20:56:25 +0100
 selected:       true
 pub:            "The Network and Distributed System Security (NDSS) Symposium"
 # pub_pre:        "Submitted to "
