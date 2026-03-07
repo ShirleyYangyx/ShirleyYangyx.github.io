@@ -24,7 +24,7 @@ enable_masonry: true
         {%- assign width_sm = item.width | times: 2 | at_most: 12 -%}
         {%- assign width_xs = item.width | times: 2 | at_most: 12 -%}
     {%- endif -%}
-    <div class="p-2 grid-item col-md-{{ item.width | at_most: 12 }} col-sm-{{ width_sm }} col-{{ width_xs }}">
+    <div class="py-2 grid-item col-md-{{ item.width | at_most: 12 }} col-sm-{{ width_sm }} col-{{ width_xs }}">
         <div class="{% if item.class != null %}{{ item.class }}{% else %}card border-0 shadow-sm bg-white{% endif %}">
             {{ item.content }}
         </div>
