@@ -3,6 +3,8 @@ layout: default
 title : Paintings Showcase
 navbar_title: Paintings
 container_class: container-xl
+enable_lazyload: true
+enable_masonry: true
 ---
 
 {% assign cards_by_group = site.showcase | sort: "date" | reverse | where: "show", true | group_by_exp: "item", "item.group" %}

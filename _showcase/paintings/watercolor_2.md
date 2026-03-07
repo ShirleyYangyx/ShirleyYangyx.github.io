@@ -5,5 +5,5 @@ date: 2020-01-12 00:01:00 +0800
 group: Watercolor
 ---
 <div>
-    <img data-src="{{ 'assets/images/etc/watercolor2.jpeg' | relative_url }}" class="lazy w-100 rounded-xl" src="{{ '/assets/images/etc/watercolor2.jpeg' | relative_url }}">
+    <img data-src="{{ '/assets/images/etc/watercolor2-opt.jpg' | relative_url }}" class="lazy w-100 rounded-xl" src="{{ '/assets/images/empty_300x200.png' | relative_url }}" alt="Watercolor artwork">
 </div>
