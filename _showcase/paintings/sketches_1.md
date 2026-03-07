@@ -5,5 +5,5 @@ date: 2020-01-12 00:01:00 +0800
 group: Sketches
 ---
 <div>
-    <img src="{{ 'assets/images/etc/sketches1.jpeg' | relative_url }}" class="img-fluid rounded-xl" >
+    <img data-src="{{ '/assets/images/etc/sketches1.jpeg' | relative_url }}" class="lazy w-100 rounded-xl" src="{{ '/assets/images/empty_300x200.png' | relative_url }}" alt="Sketch artwork">
 </div>
