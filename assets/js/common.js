@@ -1,8 +1,19 @@
 // aHR0cHM6Ly9naXRodWIuY29tL2x1b3N0MjYvYWNhZGVtaWMtaG9tZXBhZ2U=
 $(function () {
-    var hasLazyPlugin = typeof $.fn.Lazy === 'function';
+    var hasLazyPlugin = $.fn && (typeof $.fn.Lazy === 'function' || typeof $.fn.lazy === 'function');
     var hasMasonryPlugin = typeof $.fn.masonry === 'function';
     var hasImagesLoaded = typeof $.fn.imagesLoaded === 'function';
+    var initLazy = function($elements, options) {
+        if (typeof $elements.Lazy === 'function') {
+            $elements.Lazy(options);
+            return true;
+        }
+        if (typeof $elements.lazy === 'function') {
+            $elements.lazy(options);
+            return true;
+        }
+        return false;
+    };
 
     if (hasLazyPlugin) {
         var lazyLoadOptions = {
@@ -26,10 +37,18 @@ $(function () {
             }
         };
 
-        $('img.lazy, div.lazy:not(.always-load)').Lazy({visibleOnly: true, ...lazyLoadOptions});
-        $('div.lazy.always-load').Lazy({visibleOnly: false, ...lazyLoadOptions});
-    } else {
-        // Fallback: ensure lazy-marked images still load when plugin is not enabled for this page.
+        try {
+            var okNormal = initLazy($('img.lazy, div.lazy:not(.always-load)'), {visibleOnly: true, ...lazyLoadOptions});
+            var okAlways = initLazy($('div.lazy.always-load'), {visibleOnly: false, ...lazyLoadOptions});
+            hasLazyPlugin = okNormal || okAlways;
+        } catch (e) {
+            console.warn('[lazyload] Plugin initialization failed, falling back to eager data-src loading.', e);
+            hasLazyPlugin = false;
+        }
+    }
+
+    if (!hasLazyPlugin) {
+        // Fallback: ensure lazy-marked images still load when plugin is unavailable or failed.
         $('img.lazy[data-src]').each(function() {
             var $img = $(this);
             if (!$img.attr('src') || $img.attr('src').indexOf('empty_300x200.png') !== -1) {
