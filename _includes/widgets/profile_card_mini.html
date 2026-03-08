@@ -73,12 +73,6 @@
                         </a>
                         {% endif %}
 
-                        {% if site.data.profile.linkedin %}
-                        <a class="px-1 no-break" target="_blank" href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        {% endif %}
-
                         {% if site.data.profile.orcid %}
                         <a class="px-1 no-break" target="_blank" href="https://orcid.org/{{ site.data.profile.orcid }}">
                             <i class="fab fa-orcid"></i>
@@ -88,6 +82,12 @@
                         {% if site.data.profile.cv_link %}
                         <a class="px-1 no-break" target="_blank" href="{{ site.data.profile.cv_link | relative_url }}">
                             <i class="fas fa-file-alt"></i>
+                        </a>
+                        {% endif %}
+
+                        {% if site.data.profile.linkedin %}
+                        <a class="px-1 no-break" target="_blank" href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}">
+                            <i class="fab fa-linkedin"></i>
                         </a>
                         {% endif %}
                     </div>
