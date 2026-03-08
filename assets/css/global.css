@@ -89,14 +89,3 @@ div.lazy {
 .email-text {
     font-family: Source Code Pro, monospace;
 }
-
-@media (max-width: 767.98px) {
-    .container,
-    .container-sm,
-    .container-md,
-    .container-lg,
-    .container-xl {
-        padding-left: 8px;
-        padding-right: 8px;
-    }
-}
