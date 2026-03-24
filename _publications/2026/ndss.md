@@ -19,7 +19,7 @@ authors:
 
 links:
  Code: https://github.com/sakurasfy/PACS
-Paper: https://www.ndss-symposium.org/ndss-paper/pacs-privacy-preserving-attribute-driven-community-search-over-attributed-graphs/
+ Paper: https://www.ndss-symposium.org/ndss-paper/pacs-privacy-preserving-attribute-driven-community-search-over-attributed-graphs/
 ---
 
 
