@@ -103,3 +103,6 @@ services:
 - name: CPSS
   tag: Committee
   years: 2026, 2025
+- name: CCS Demo
+  tag: Committee
+  years: 2026
