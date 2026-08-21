@@ -22,6 +22,6 @@ authors:
 
 links:
  Paper: https://eprint.iacr.org/2026/1537
-
+---
 
 
