@@ -40,12 +40,14 @@ experience:
 - name: Nanyang Technological University
   logo: /assets/images/badges/NTU.png
   position: >- 
-    Research Fellow
+    Research Fellow <br/>
+    Hosted by: <a href="https://personal.ntu.edu.sg/tianwei.zhang/" target="_blank">Tianwei Zhang</a>
   date: Oct. 2025 - present
 - name: Singapore University of Technology and Design
   logo: /assets/images/badges/SUTD.png
   position: >-
     Research Fellow
+    Hosted by: <a href="http://jianying.space/" target="_blank">Jianying Zhou</a>
   date: Jul. 2023 - Sep. 2025
 
 education:
