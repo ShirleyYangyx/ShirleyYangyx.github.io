@@ -48,7 +48,7 @@ experience:
   position: >-
     Research Fellow <br/>
     Hosted by: <a href="http://jianying.space/" target="_blank">Jianying Zhou</a>
-  date: Jul. 2023 - Sep. 2025
+  date: Jun. 2023 - Oct. 2025
 
 education:
 - name: Jinan University 
@@ -99,12 +99,15 @@ services:
 - name: ACISP
   tag: Reviewer
   years: 2026, 2024
+- name: USENIX Security
+  tag: Committee
+  years: 2027
+- name: CCS Poster/Demo
+  tag: Committee
+  years: 2026
 - name: PST
   tag: Committee
   years: 2025, 2024, 2023
 - name: CPSS
   tag: Committee
   years: 2026, 2025
-- name: CCS Poster/Demo
-  tag: Committee
-  years: 2026
